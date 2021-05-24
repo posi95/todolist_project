@@ -1,0 +1,28 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "npx babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posi95/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/posi95/todolist_project/issues"
+  },
+  "homepage": "https://github.com/posi95/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
